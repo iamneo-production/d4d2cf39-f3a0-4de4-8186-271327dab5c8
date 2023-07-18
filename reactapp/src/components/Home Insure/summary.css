@@ -1,0 +1,50 @@
+.summary-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .summary-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    margin-bottom: 10px;
+  }
+  
+  .summary-label {
+    font-weight: bold;
+  }
+  
+  .summary-value {
+    margin-left: 10px;
+  }
+  
+  .summary-property-documents {
+    margin-top: 20px;
+  }
+  
+  .summary-property-documents label {
+    display: block;
+  }
+  
+  .summary-property-documents a {
+    color: blue;
+  }
+  
+  .summary-property-documents a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .summary-button-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+   margin-left: -75px;
+  }
+  

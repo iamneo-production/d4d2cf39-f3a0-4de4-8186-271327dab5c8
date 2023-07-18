@@ -1,0 +1,79 @@
+.insurance-comparison-container {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+  
+    height: 100vh;
+  }
+  
+  .insurance-table {
+    width: 800px;
+    margin-top: 70px;
+    border-collapse: collapse;
+    margin-left: 200px;
+  }
+  
+  th,
+  td {
+    border: 0.5px solid black;
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center;
+    white-space: nowrap; /* Prevent cell content from wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis for overflow content */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgb(196, 232, 245); /* Change the background color of odd rows */
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .insurance-table td:first-child,
+  .insurance-table th:first-child {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .insurance-table td:last-child,
+  .insurance-table th:last-child {
+    padding-right: 20px;
+  }
+  
+  .insurance-table td,
+  .insurance-table th {
+    font-size: 16px;
+    min-width: 100px; /* Set a minimum width for each cell */
+  }
+  
+  .insurance-table .highlight {
+    background-color: #fceabb;
+  }
+  
+  .insurance-table .highlight td {
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .insurance-table {
+      width: 90%;
+    }
+  }
+  

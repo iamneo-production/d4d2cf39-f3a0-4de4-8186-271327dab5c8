@@ -1,0 +1,25 @@
+.abc
+{
+  margin-left: 750px;
+}
+.partnerLogo:hover {
+  transform: scale(2); 
+  transition: transform 0.3s ease; 
+}
+.abcd:hover {
+  transform: scale(1.2); 
+  transition: transform 0.3s ease; 
+}
+.xyz {
+  display: block;
+  margin: 25px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.xyz:hover {
+  background-color: 'blue';
+  color:'black';
+  
+}

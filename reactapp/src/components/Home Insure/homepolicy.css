@@ -1,0 +1,86 @@
+.form-container1 {
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container1 {
+    flex: 1;
+    padding: 20px;
+    max-width: 1000px; /* Set the maximum width for the image container */
+  }
+  
+  .image-container1 img {
+    max-width: 100%; /* Ensure the image resizes within the container */
+    height: 700px; /* Maintain the aspect ratio of the image */
+  }
+  
+  .form-content1 {
+    flex: 1;
+    padding: 15px;
+    background-color: #f2f2f2; /* Set the gray background color */
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group1{
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  select,
+  button {
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none; /* Remove the border */
+    background-color: transparent; /* Make the background transparent */
+    border-bottom: 1px solid #ccc; /* Add a line at the bottom */
+    transition: border-color 0.3s; /* Add a smooth transition */
+  }
+  
+  input:focus,
+  select:focus,
+  button:focus {
+    outline: none;
+    border-color: black; /* Change the border color when focused */
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    margin-left:290px;
+    margin-top:30px;
+  }
+  
+  button:hover {
+    background-color: grey;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  .blue {
+    color: rgb(100, 199, 197);
+  }
+  
